@@ -1,0 +1,158 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+/* ***********************<HEADER>************************** */
+
+header{
+    background-color: black;
+    text-align: center;
+}
+
+/* ***********************</HEADER>************************** */
+
+/* ***********************<MAIN>************************** */
+main{
+    text-align: center;
+    background-color: black;
+}
+
+/* ***********************<STYLES>************************** */
+span{
+    display: block;
+    margin-bottom: 12px;
+  }
+/* ***********************</STYLES>************************** */
+
+/* ***********************<FRONT-PAGE>************************** */
+
+.title{
+    color: yellow;
+    padding-bottom: auto;
+    padding-top: 15px;
+}
+
+.letters-front-page{
+    font-weight: 900;
+}
+
+.portada{
+    width: 550px;
+}
+/* ***********************</FRONT-PAGE>************************** */
+
+/* ***********************<DESCRIPTION>************************** */
+.description-1{
+    color: rgb(255, 255, 255);
+}
+/* ***********************</DESCRIPTION>************************** */
+
+/* ***********************<CINEMA>************************** */
+.title-2{
+    font-size: x-large;
+    font-weight: 700;
+}
+/* ***********************</CINEMA>************************** */
+
+/* ***********************<BUTONS>************************** */
+
+.button-1,
+.button-2{
+    display: block;
+    border: 1px solid #ffee00; 
+    color: red;
+    padding: 10px 10px;  
+    background-color: #ff0000; 
+    color: #ffffff;  
+    text-decoration: none; 
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-bottom: 30px;  
+}
+
+.button-1:hover{
+    color: #ffee00;
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+}
+.button-2:hover{
+    color: #ffee00;
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+}
+
+
+ .button-3{ 
+    display: block;
+    border: 1px solid #ffee00; 
+    color: red;
+    padding: 10px 10px;  
+    background-color: #ff0000; 
+    color: #ffffff;  
+    text-decoration: none; 
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ 
+
+.button-3:hover{
+color: #ffee00;
+box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+}
+/* ***********************</BUTONS>************************** */
+
+/* ***********************<SEPARATION>************************** */
+.separation-image{
+    width: 370px;
+}
+/* ***********************</SEPARATION>************************** */
+
+/* ***********************<FLIM>************************** */
+.lettres-top-flim{
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+.flim{
+    width: 650px;
+}
+/* ***********************<FLIM>************************** */
+
+/* ***********************<FLEX-CONTAINER>************************** */
+.flex-container{
+    margin-bottom: 10px;
+    stroke:white;
+    stroke-width:2
+    border
+
+}
+/* ***********************<FLEX-CONTAINER>************************** */
+
+/* ***********************<FOOTER>************************** */
+footer{
+    color: black;
+    font-size: 0.6vw;
+    text-align: justify;
+}
+/* ***********************<FOOTER>************************** */
+
+
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* border-left:3px; solid white         
+border-right:3px; solid white    
+pading-left:30px;     
+padding-right:30px; */

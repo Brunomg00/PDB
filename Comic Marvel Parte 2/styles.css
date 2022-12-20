@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    font-size: 65px;
+    padding-top: 60px;
+ } 
+
+
+
+/* ***********************<BANER>************************** */
+
+ .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(83, 30, 30, 0.5)), url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dc49df67-8273-417d-aca0-239ff4c726f4/d4dis4x-d1f110b6-06e6-4ee8-99f5-8ec2bd838b77.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RjNDlkZjY3LTgyNzMtNDE3ZC1hY2EwLTIzOWZmNGM3MjZmNFwvZDRkaXM0eC1kMWYxMTBiNi0wNmU2LTRlZTgtOTlmNS04ZWMyYmQ4MzhiNzcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sJqg36WmuTef8xhYpVffs6Yhv_LzYrzPj7gkXaB5xko");
+    height: 25%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .marvel{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.marvel:hover {color: red;}
+  
+/* ***********************<BANER>************************** */
+
+/* ***********************<DIV>************************** */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    width: 60%;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 0.5rem;
+
+}
+
+.title-grid{
+    grid-column: 1/span 5;
+    grid-row: 1;
+    width: 60%;
+    margin-right: 40%;
+    margin-left: 40%;
+    
+}
+
+
+/* ***********************<DIV>************************** */
+
+/* ***********************<IMAGENES>************************** */
+.imagen{
+    width: 200px; 
+    box-shadow: 10px 8px 10px #888888;
+    margin-bottom: 15px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.imagen:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+    transform: translateY(-15px);
+  }
+
+.imagen:active {
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+  }
+/* ***********************<IMAGENES>************************** */
+
+/* ***********************<COMBINACION AUTOR/BOTON>************************** */
+
+.autor,
+.button{
+    display: block;
+    margin-top: 5px;
+    margin-left: 1px;
+    text-align: left;
+}
+
+/* ***********************<COMBINACION AUTOR/BOTON>************************** */
+
+/* ***********************<AUTOR>************************** */
+
+.autor{
+   font-size: small;
+   text-decoration: none;
+   color: black;
+
+}
+
+.autor:hover {color: red;}
+
+/* ***********************<AUTOR>************************** */
+
+/* ***********************<BOTONES>************************** */
+
+.button{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    
+    color: black;
+}
+
+.button:hover {color: red;}
+
+/* ***********************<BOTONES>************************** */
+

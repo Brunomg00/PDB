@@ -1,0 +1,130 @@
+body{
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ***********************tabla1/2************************** */
+.ref{
+    width: 33%;
+    font-weight:bold;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.dato{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+/* ***********************tabla1/2************************** */
+/* ***********************tabla2************************** */
+.numero{
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 20px;
+    padding-bottom: 25px;
+
+}
+/* ***********************tabla2************************** */
+
+/* ***********************tabla3************************** */
+.cant{
+    text-align: center;
+    background-color: white;
+}
+
+.art{
+    background-color: white;
+    width: 160px;
+    text-align: left
+    
+}
+
+
+ /* ***********************tabla3************************** */
+
+ /* ***********************tabla4************************** */
+.tabla4{
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.ref4{
+    text-align: right;
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+ /* ***********************tabla4************************** */
+
+table{
+    font-size: small;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(231, 231, 231, 0.705);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+caption{
+    color: red;
+    text-align: left;
+    font-weight: bolder;
+}
+text{
+    text-align: left;
+}
+
+th{
+   color: red; 
+   
+}
+
+th.rowspan {
+    background-color: white;
+}
+
+h1{
+    color: red;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+td{
+    color: rgb(0, 0, 0); 
+    height: 4px;
+    text-align: left;
+}
+
+p{
+    font-size: small;
+}
+
+h4{
+    font-size: small;
+}
+
+.QR{
+    background-color: white;
+    display: block;
+    padding-left: 20px;
+}
+/* span{
+
+} */

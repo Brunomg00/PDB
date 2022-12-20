@@ -1,0 +1,49 @@
+table{
+  /* font-family: arial, sans-serif; */
+  width: 100%;
+  background-color:#141212;
+  border-collapse: collapse;
+}
+
+th {
+      text-align: left;
+  padding: 10px;
+  color: #ffffff;
+  background-color: darkslategray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: smaller;
+  text-align: left;
+}
+
+td {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 7px;
+}
+
+tr:hover {background-color: rgb(53, 49, 49);} 
+
+
+.foto{
+  width: 40px;
+}
+
+.cancion{
+  height: 10px;
+}
+
+.artista{
+  height: 10px;
+}
+.album{
+  height: 10px;
+}
+
+.fecha{
+  height: 10px;
+}
+
+.duracion{
+  height: 10px;
+}
